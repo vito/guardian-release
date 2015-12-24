@@ -7,6 +7,7 @@ dependencies:
 
 files:
   - github.com/cloudfoundry-incubator/guardian/rundmc/nstar/*
+  - vendor/**/*.go
   - github.com/Sirupsen/logrus/*.go # gosub
   - github.com/bmizerany/pat/*.go # gosub
   - github.com/cloudfoundry-incubator/cf-debug-server/*.go # gosub
@@ -147,6 +148,10 @@ files:
   - github.com/docker/docker/utils/*.go # gosub
   - github.com/docker/docker/volume/*.go # gosub
   - github.com/docker/libcontainer/netlink/*.go # gosub
+  - github.com/docker/libnetwork/*.go # gosub
+  - github.com/docker/libnetwork/config/*.go # gosub
+  - github.com/docker/libnetwork/netlabel/*.go # gosub
+  - github.com/docker/libnetwork/options/*.go # gosub
   - github.com/docker/libtrust/*.go # gosub
   - github.com/gorilla/context/*.go # gosub
   - github.com/gorilla/mux/*.go # gosub

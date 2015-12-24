@@ -22,6 +22,7 @@ make
 popd
 
 pushd src/github.com/cloudfoundry-incubator/guardian
+export GO15VENDOREXPERIMENT=1
 go install -tags daemon github.com/cloudfoundry-incubator/guardian/cmd/guardian
 go install github.com/cloudfoundry-incubator/guardian/rundmc/iodaemon/cmd/iodaemon
 
