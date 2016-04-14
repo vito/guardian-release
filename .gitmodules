@@ -1,7 +1,7 @@
 [submodule "src/github.com/cloudfoundry-incubator/guardian"]
 	path = src/github.com/cloudfoundry-incubator/guardian
-	url = https://github.com/cloudfoundry-incubator/guardian
-	branch = master
+	url = https://github.com/vito/guardian
+	branch = concourse
 [submodule "src/github.com/onsi/gomega"]
 	path = src/github.com/onsi/gomega
 	url = https://github.com/onsi/gomega
@@ -46,10 +46,6 @@
 	path = src/github.com/pivotal-golang/archiver
 	url = https://github.com/pivotal-golang/archiver
 	branch = master
-[submodule "src/github.com/opencontainers/specs"]
-	path = src/github.com/opencontainers/specs
-	url = https://github.com/cloudfoundry-incubator/specs
-	branch = master
 [submodule "src/github.com/nu7hatch/gouuid"]
 	path = src/github.com/nu7hatch/gouuid
 	url = https://github.com/nu7hatch/gouuid
@@ -65,7 +61,7 @@
 [submodule "src/github.com/opencontainers/runc"]
 	path = src/github.com/opencontainers/runc
 	url = https://github.com/cloudfoundry-incubator/runc
-	branch = runc-patches-with-rlimit-changes
+	branch = guardian
 [submodule "src/github.com/cloudfoundry-incubator/goci"]
 	path = src/github.com/cloudfoundry-incubator/goci
 	url = https://github.com/cloudfoundry-incubator/goci
@@ -153,9 +149,13 @@
 	path = src/github.com/cloudfoundry/gosteno
 	url = https://github.com/cloudfoundry/gosteno
 	branch = master
-[submodule "src/github.com/pquerna/ffjson"]
-	path = src/github.com/pquerna/ffjson
-	url = https://github.com/pquerna/ffjson
+[submodule "src/github.com/jessevdk/go-flags"]
+	path = src/github.com/jessevdk/go-flags
+	url = https://github.com/jessevdk/go-flags
+	branch = master
+[submodule "src/github.com/opencontainers/runtime-spec"]
+	path = src/github.com/opencontainers/runtime-spec
+	url = https://github.com/cloudfoundry-incubator/specs
 	branch = master
 [submodule "src/github.com/xeipuuv/gojsonpointer"]
 	path = src/github.com/xeipuuv/gojsonpointer
@@ -168,8 +168,4 @@
 [submodule "src/github.com/xeipuuv/gojsonschema"]
 	path = src/github.com/xeipuuv/gojsonschema
 	url = https://github.com/xeipuuv/gojsonschema
-	branch = master
-[submodule "src/github.com/jessevdk/go-flags"]
-	path = src/github.com/jessevdk/go-flags
-	url = https://github.com/jessevdk/go-flags
 	branch = master
